@@ -59,7 +59,6 @@ fn main() {
                     current_stack += 1;
                 }
                 (None, _, _, _) => {
-                    // panic!();
                     break;
                 } // The line has ended, move to next line
                 (_, _, _, _) => panic!(),
